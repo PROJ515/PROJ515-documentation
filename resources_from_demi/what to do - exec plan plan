@@ -1,4 +1,6 @@
 Intro:
+ (literature  survey,  design  testing  and  business
+case)
 research questions
 when it could be used
 why is it required?
@@ -10,6 +12,8 @@ components
 dependencies
 
 requirements
+
+risk management/mitigation
 
 delivery:
 gantt chart & milestones
@@ -23,3 +27,68 @@ Documentation & media:
 how to use?
 IP landscape
 
+
+minimum expected of exec plan:
+Team Organisation:
+The  specific  areas  in  which  you  will  be  assessed  are  the  manage-
+ment and organisation of your team.  You need to ensure that your team structure
+is based on sound project management theories adapted to your project needs, and
+everyones role is clear.
+
+Team Management:
+Within  the  structure,  you  need  to  clarify  the  approach  taken  if
+things  do  not  go  according  to  plan.  The  risks  associated  with  the  project  should
+be clear, and there should be a strategy to de-risk the project.
+
+Project Plan:
+You need to provide a suitably detailed project plan with clear milestones
+and deliverables.
+
+Design phase - major tasks:
+*Define goals and objectives
+*System level design
+*System requirements derived from goals and objectives
+*Identify major subsystems and interfaces
+*Concept hardware and software design
+*Derived from system requirements and constraints
+*Identify parts, costs & availability
+*Establish tasks, schedule, resource needs and plans for remaining phases of life-cycle
+*Develop preliminary risk assessment & management plan
+*Phase terminates with Preliminary Design Review (PDR)
+NOTE: Little to no hardware testing or prototyping
+
+Phases: 
+	Design phase:
+		define goals and objectives
+		system level design:
+			system requirements derived from goals and objectives
+			identify major subsystems and interfaces
+		concept hardware and software design:
+			derived from system requirements and constraints
+			identify parts, costs and availability
+		establish tasks, schedule, resource needs and pplans for remaining phases of project life-cycle
+		develop preliminary risk assesment and management plan
+		
+	Development phase 1:
+		Test concepts by prototyping:
+			not building final hardware
+			used to gain information necessary to refine or finalize a design
+			Applies to structure, electronics, sensors and software
+		Finalise hardware & software design
+			complete system design
+			define interfaces and develop appropriate interface controll documents (IDC)
+			Complete detailed design
+		
+		design -> prototype -> test (-> design) -> complete design
+
+	Development phase 2:
+		Purchase long-lead items
+		finalise plans for project completion
+			fabrication, integration, calibration and testing
+			tasks, schedule, procedures, resource needs, costs
+		update risk assessment & management plan
+			preliminary plan should already be in use for tracking and mitigating risks during development
+		develop preliminary operational testing & data analysis plan
+
+		order parts -> QA/QC -> assembly -> test -> integration
+		
