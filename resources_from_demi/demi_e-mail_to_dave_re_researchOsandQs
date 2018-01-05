@@ -1,0 +1,61 @@
+
+From: Dave Edmondson <drdave1946@googlemail.com>
+Sent: 17 November 2017 20:18
+To: (s) Jack Chynoweth
+Cc: (s) Leo Schofield; (s) Andrew West; (s) Demetrius Zaibo
+Subject: Re: Emails for -Group 1-Marine Navigation in absence of a communication link using a DMU30
+ 
+Hi Jack
+
+If one pays enough for an INS system then one can certainly achieve very high accuracy. Thus I think that you intend to use a fairly modest system in terms of cost to achieve high accuracy.
+
+You need to turn your mission statement into a single research question (RQ) that reflects this.
+
+Following on from this you need a set of 4 to 6 research objectives (RO) that help to answer this question.
+
+My starter for ten would be:
+Evaluate current navigation systems to determine their accuracy as a function of cost.
+
+Then you need to look at all factors that influence accuracy (drift is by far the most important)
+
+An RO dealing with tools / techniques to correct these errors
+
+An RO on building a system 
+
+The last one below dealing with the maritime environment seems to be setting the context of your study and thus should be reflected in your RQ. 
+
+I hope that this all makes sense to you. Incidentally, Alan Malvern is something of an expert in INS, having developed a ring laser gyro at BAE some years ago.
+Best wishes
+Dave
+
+
+
+
+
+
+
+Sent from my iPad
+On 16 Nov 2017, at 14:35, (s) Jack Chynoweth <jack.chynoweth@students.plymouth.ac.uk> wrote:
+
+Hi Dave,
+
+Our group has had a meeting and we've put together a revised a mission statement and subsequent research questions.
+
+Would you be able to give us some feedback on this?
+
+ 
+Mission Statement / Project Summary: 
+To produce a navigational aid for use in a communication denied environment based on an INS that uses drift correction techniques to achieve comparable accuracy to other contemporary navigation systems.  
+
+Research Questions: 
+What techniques can be used for the correction of drift within an INS? 
+What contemporary navigation systems are currently available, and what is their accuracy? 
+What metrics and data formatting would be suitable for an individual to navigate a maritime vessel? 
+
+
+Thanks for your time,
+
+Best regards
+
+Jack
+
