@@ -91,4 +91,16 @@ Phases:
 		develop preliminary operational testing & data analysis plan
 
 		order parts -> QA/QC -> assembly -> test -> integration
+
+
+
+To perform the critical path method, there are 6 steps:
+
+    Divide the project into tasks
+    Estimate tasks
+    Create the network diagram
+    Draw initial Gantt (bar) chart
+    Perform resource levelling
+    Compress the schedule (if necessary)
+
 		
