@@ -1,0 +1,143 @@
+Risk probability vs impact.png
+
+Risks:
+Prototyping:
+multiple solutions for some systems, don't know how hard each will be to implement and get working yet
+
+probability of occurence out of 3 = p
+severity of risk	 out of 3 = r
+
+Single points of failure:
+	Laptop
+	p = 1, r = 3
+	solutions to failure:
+		distributed computing, offboard computing, Jetson
+	prevention of failure:
+		Leave laptop in locked room
+		Insurure laptop
+		Protect when being caried around
+
+	Power supply passes mains through, blows all dynamixels, gripper servos, kinect etc..
+	p = 1, r = 3
+	soutions?
+		cry, potentially fix servos in korea (unliikely)
+	prevention:
+		Make sure to buy certified power supply (guarentee etc...) with current limit, reputable source
+	fast-blow fuse on input (and output to servos?)
+
+Known unknowns:
+	feasability/schedule:
+		Can we use fractal QR codes?
+		How do we pause SLAM and hold onto the map
+		How accurate/precise is the arm?
+	logistics:
+		Chinese servos,lead times, returns etc..
+	Human resources:
+		what if we're not available/ill/leave
+	Production:
+		Printers break, lead times on PCBs
+	Engineering:
+		systems level integration/testing takes too long
+		Incompatible interfacing between systems designed by different people
+
+
+Risk Register:
+
+guideline for the risk description:
+    Event may occur, causing Impact.
+    If Cause exists, Event may occur, leading to Effect.
+
+A good risk register has the following six columns:
+
+    Description of risk
+    Probability
+    Impact
+    Priority
+    Triggers
+    Response plan
+
+
+
+Health & Safety Risks 
+
+Budget Risks
+
+Schedule Risks
+
+Quality/Technical Risks
+
+Communication Risks
+
+
+Risks:
+technical (ROBOT):
+	gripper:
+		servo breaks
+		gripper self-destructs breaking servo
+		gripper self-destructs breaking plastics
+	kinect:
+		Power supply voltage issues 
+		Runs too slowly on second PC
+		Issues translating kinect pixel numbers to coordinate referenced to any robot
+	fractal QR codes don't work
+	Gripper vision:
+		camera too close, fractal QR code doesn't work
+	gripper/kinect vision uses up too many computational resources causing issues with kinematic calculations (non-smooth trajectories, jumping, collisions, crashing etc..)
+	gripper can't deform to shape of object properly, can't pick object up
+	localisation:
+		Robot crashes into walls/things
+			breaks nothing
+			breaks arm
+			breaks encoder
+		robot can't get close enough to object (more than once or twice)
+	object mapping:
+		Robot can't see far away objects
+		robot falsly identifies objects
+	
+	arm mounting:
+		arm falls off leading to damage of arm
+		strength of connectors to base
+		arm overbalances base
+	systems integration:
+		must and can't stop/pause SLAM without remapping room
+	object falls out of gripper often
+
+	risk: invacare remote finally dies
+	solution: reserve budget to buy new controller
+
+Planning:
+	risk: finished subsystems performance criteria not strict enough to allow for autonomous interaction between subsystems
+	silution: carefully re-evaluate performance criteria of subsystems
+			potentially suggest alternative subsystems
+
+
+Human:
+
+	lab is frequently full of people, scrambles SLAM
+
+	Risk: getting caught in the details of a subsystem, spending too long trying to fix unexpected issues in a subsystem
+	mitigation: group meeting, analyse alternative subsystems/different ways of achieving the same thing
+
+
+	risk: Tom/Dan falls ill 
+		1 week
+		2-4 weeks
+		4-8 weeks
+		8 weeks
+
+human/time:
+	CAD could take longer than planned
+	Systems integration takes longer than planned (applicable for interaction between every system&subsystem)
+
+
+
+Resources:
+	Risk: we lose access to the arm from Martin
+	Printers unavailable / break
+
+Logistics:
+	can't find servos suitable cheap servos in the UK so must look to china
+	long lead times
+	can't return servos if faulty / break
+	can't get PCB made
+
