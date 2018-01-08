@@ -1,0 +1,48 @@
+Robust Compliant Adaptive Grasper and Method of Manufacturing Same
+https://patents.google.com/patent/US20090302626A1/en?q=soft+robot+manipulator
+
+Flexible positioning appendage
+https://patents.google.com/patent/US5297443A/en?q=B25J15%2f00
+
+Soft robotic grippers for cluttered grasping environments, high acceleration movements, food manipulation, and automated storage and retrieval systems
+https://patents.google.com/patent/US20170203443A1/en?q=%22soft+robotic+gripper%22
+
+
+Soft robotic actuators
+https://patents.google.com/patent/WO2012148472A2/en?q=%22soft+robotic+gripper%22
+
+Soft robotic actuators and methods of manufacturing the same
+https://patents.google.com/patent/US20160279803A1/en?q=%22soft+robotic+gripper%22
+
+Self-contained robotic gripper system
+https://patents.google.com/patent/US20170028566A1/en?q=%22soft+robotic+gripper%22
+
+
+Title
+table:
+	patent title
+	patent code
+	patent status
+	countries patent is active in
+	threat to project
+	url
+	
+abstract (c/p)
+summary (ours)
+independatnt claims (c/p)
+	claim 1
+		claim (c/p)
+		interpertation
+		threats
+		workaround
+		enforcability (how general it is)
+	
+	claim 2
+		claim (c/p)
+		interpertation
+		threats
+		workaround
+		enforcability (how general it is)
+constraints on project
+	
+	
