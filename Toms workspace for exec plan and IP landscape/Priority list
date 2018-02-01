@@ -1,0 +1,53 @@
+Priority list(marks/time)
+	Highest
+		IP landscape - patent analysis
+		WBS (half)
+		Gannt chart (half/most)
+		Development process
+	High
+		Milestones/deliverables (need writing down)
+		Test process
+		Project management	
+	Mid
+		System + hardware/software overveiw (needed)
+		Team organisation? (???)
+	Low
+		Budget
+		Intro
+		Risk assessment	(mostly done)
+
+
+
+system hardware/software overview
+
+hardware systems:
+base
+arm
+gripper
+cameras
+base sensors
+
+software systems:
+navigation:
+	slam
+	costmaps
+	trajectory planning
+	obstacle avoidance
+	velocity control
+arm:
+	control(existing)
+	control (to be done, sends instructions to kinematic model)
+
+gripper/cam:
+	controller
+	visual servoing/grasping
+	
+
+head camera:
+	Identification (fiducials)
+
+waypoint node:
+	saving/loading goals
+
+
+

@@ -1,0 +1,154 @@
+Project Execution Plan
+
+General aims, research question/goals
+
+Task overview
+
+Task breakdown
+
+System overview
+
+System flow diagram
+
+Software overview
+
+Software flow diagram
+
+Gantt chart
+
+Requirements(software/hardware)
+
+Budget
+
+IP
+////////////////////////////////////////////////////////////////////////////////////
+
+Design->Develop->Create->Integrate->Test->Operate
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Design
+
+	Goals(research questions) and objectives
+
+	System Design
+		System requirements
+		Identify subsystems and interfaces
+
+	Hardware/Software design
+		From system requirements
+		Find cost and lead times
+
+	Establish tasks
+
+	Schedule
+
+	Risk assessment and management plan
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Project execution plan
+	Team organisation
+		roles and responsibilities
+	Team management
+		Risks
+	Project plan
+		Milestones and deliverables
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Work breakdown structure
+	Do stuff
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Broad tasks
+	
+	Gripper
+		Find suitable servos			Both	half day
+		Integrate camera(CAD)			Dan	Half-One day
+		Design LED schematic			Tom	{	
+		Design servo breakout schematic		Tom	one day
+		PCB layout for breakout & LEDs		Tom	}
+		Build control board for LEDs/servos	Tom	One day
+		integrate PCB in CAD			Dan	{ one day
+		integrate LEDs in CAD			Dan	}
+		Finish cad				Dan	Three days
+		Print					Either	Two days
+		Build					Dan	One day
+		Software				Dan	One day
+
+	Kinect vision
+		Find cpu/gpu usage				
+		Graph QR code size vs camera resolution vs distance	Tom	One day
+		Check QR codes don't conflict with YOLO	Tom	Half day
+		
+		Decide on vision system:		Both
+			QR				Dan	Undefined
+			YOLO				Both	Undefined
+		Implement identification solution
+		Combine solution with depth map for xyz localisation
+		know when object is identified, check for false positives, save location(s) with labels
+		
+	Gripper vision
+		Decide on camera			Both	half day
+		Cpu/gpu usage
+		object recognition, yolo?
+		Visual servoing output			Dan	One day
+		Gripper adapt to object?	(later) Dan	four days
+	
+	Localisation/Navigation
+		Make sure everything still works	Tom	One day
+		Evaluate current performance		Tom	Three days
+		Look into map loading			Tom
+		fix encoder				Tom	Two days
+		Go to identified object			Tom	(test)
+
+	Object mapping
+		Write node to tag, save, store and recall goals/coordinates	Tom
+		Write "waypoint" node:
+			Must be able to save current/custom locations on request with optional labels, also
+			must be able to request specific goals/files/coordinates from the node and it will 
+			publish them as goals					Tom	Four days
+		
+
+
+	Arm
+		Decide on mounting method for arm			Both	Half day
+		Design arm mount					Dan	half day
+		Mount arm						Dan	One day
+		Learn how to control arm				Both	Two days
+		Find CPU/GPU usage of kinematics/trajectories
+		link control to visual servoing					Three days
+
+	System integration
+		Mount arm
+		Localise and find objects, simultaneously or stop/start?
+		Move arm to object
+		Pass over arm control to gripper camera and home in on object
+		Pick up object
+		Bring home
+
+
+	Improve/redo state machine
+	implement action server
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Objectives
+	Locate object, pick up object, return object to desired location
+
+Research questions
+	How do we know our current location
+		Slam
+	How do we locate objects
+		Yolo
+		QR codes
+		xyz coordinate from camera feed
+		Save location with tag in array
+	How do we pick up object
+		Gummi arm
+		Move arm close to object using xyz coordinate from kinect
+		Home on in object using in hand camera
+		How do return object to desired location

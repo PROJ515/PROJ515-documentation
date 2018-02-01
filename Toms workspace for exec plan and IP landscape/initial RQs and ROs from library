@@ -1,0 +1,15 @@
+Research Questions:
+*How do we locate the object?
+*How do we get the object?
+*(How do we get back?)
+
+Research Objectives:
+*Improve localisation (navigation, trajectories etc..)
+*Develop system to identify nearby objects
+*link object identification system to navigation system to bring robot to object
+*System to index found objects and add to map
+*Grasping objects
+*Return home
+
+
+

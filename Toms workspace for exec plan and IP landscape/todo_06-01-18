@@ -1,0 +1,76 @@
+To do (06/01/17)
+
+to do list:
+
+
+minimum exec plan:
+In  preparing  your  Project  Execution  Plan,  you  need  to  assess  at  least  two  methods  of
+project  management  and  come  up  with  your  own  structure  to  manage  and  de-risk  your
+project.  As every project is quite different, the list below is a minimum of what is expected
+in the Project Execution Plan:
+
+Team Organisation
+The  specific  areas  in  which  you  will  be  assessed  are  the  manage-
+ment and organisation of your team.  You need to ensure that your team structure
+is based on sound project management theories adapted to your project needs, and
+everyones role is clear.
+
+Team Management
+Within  the  structure,  you  need  to  clarify  the  approach  taken  if
+things  do  not  go  according  to  plan.  The  risks  associated  with  the  project  should
+be clear, and there should be a strategy to de-risk the project.
+
+Project Plan
+You need to provide a suitably detailed project plan with clear milestones
+and deliverables.
+The IP Landscape document will be discussed with Dr Malvern
+
+
+To perform the critical path method, there are 6 steps:
+
+    Divide the project into tasks
+    Estimate tasks
+    Create the network diagram
+    Draw initial Gantt (bar) chart
+    Perform resource levelling
+    Compress the schedule (if necessary)
+
+
+
+
+To do:
+Say I've assessed multiple methods of project management, justify structure, show de-risking
+Work breakdown structure (justify?)
+Deliverables
+strengths and weeknesses?
+Clear de-risking strategy
+clarify approach taken if things do not go accordingly to plan (plan for all failures)
+Project plan with clear milestones and deliverables
+Gantt chart
+critical path?
+
+General system overview
+Deliverables
+development process
+testing cycle process
+milestones
+gantt chart
+work breakdown structure
+product breakdown structure?
+
+
+work breakdown structure:
+product oriented composed of hardware, software, services, data, facilities (define total program)
+shows system and subsystems as a product tree
+(allows for) Interface ID & control
+(allows for) specification development
+work assignment
+material/part ordering
+product park: physical archetecture
+process part: efforts required to develop, produce and support products
+
+WBS todo:
+	work assignment
+	
+
+

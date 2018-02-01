@@ -1,0 +1,63 @@
+Research questions
+
+	How do we autonomously fetch an object
+
+Research objectives
+
+	Research methods of object recognition and evaluate their strengths and weaknesses along with feasability
+
+	Research methods of object location and evaluate their streg
+
+	To pick up object
+
+	To return object to a location
+
+System requirements
+	
+	Object recognition
+
+	Object location
+
+	Navigation to goal location
+
+	Move gripper into position
+
+	Grasp object
+
+	Goal memory
+
+
+
+
+
+System overview
+
+Sub systems
+	Mobile autonomous platform
+		In order to get to a position to pick up an object a platform that can autonomously navigate and localise in an area is required. This platform will need to know its current location, save its location with a tag and take commands to navigate to a desired tag. This system will comprise of a wheeled base to enable movement, a sensor(s) to enable the ability to localise and navigate, a computer to process data from the sensor(s) and a microcontroller to interface between the mobile platform and the computer
+
+	Gripper
+		To pick up objects we will need an end effector/grasping mechanism for the robot arm. This system will comprise of a mechanical grasping mechanism, a microcontroller to command the mechanism to open/close and lighting to improve object recognition from vision system
+
+	Arm
+		In order to manuvere the gripper to an object we will need a articuated robot arm. This system will comprise of a mechanical arm and a kinematic controller on a pc.
+
+
+	Vision
+		A vision system will be used to recognise and locate objects, that initially enables the mobile platform to find object and navigate to them, the vision system will also be used to command the arm to move the end effector to a coordinate and to know when to command the gripper to close. The vision system will comprise of two cameras, a 'head' camera positioned above the arm to reconise and locate objects from a distance, and a in hand camera to allow the gripper to home in on an object.
+
+
+Components
+	Platform
+		Wheeled base
+		Lidar
+		Microcontroller
+	Arm
+		Dynamixel servos
+		Servo controllers
+		Frame
+		Links
+	Gripper
+		Servos
+		Microcontroller
+		Led array

@@ -1,0 +1,19 @@
+node archetecture:
+
+waypoint 
+	trigger
+	label
+	save
+	load
+node inputs:
+should I save a waypiint?
+should it be where I am or somewhere else?
+What should I call it?
+
+Should I load a waypoint from file?
+Which waypoint should I load?
+
+
+
+
+
